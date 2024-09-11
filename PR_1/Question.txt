@@ -1,0 +1,12 @@
+Make following five different web pages:-
+    i. Formatting styles and headings: include bold, italic, underline, strike, sub, sup, and all six types of headings
+    ii. Font styles and image tag.
+    iii. Marquee: move text, image and hyperlink.
+    iv. Other tags: br, hr, pre, p 
+
+Include following specifications:-
+    - In all these web pages only mention about use, attributes apply them.
+    - Insert a background image on home page.
+    - Make all topic as hyperlinks and go to some other page for description.
+    - Insert a marquee showing HTML tutorial as moving text.
+    - On every page, make a hyperlink for going back to home page and internal links also.

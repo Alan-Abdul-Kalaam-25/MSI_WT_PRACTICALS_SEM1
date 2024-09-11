@@ -1,0 +1,88 @@
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, arial, verdana;
+  color: #ffffff;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../ASSETS/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 35px;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+header .logo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  /* box-shadow: 5px 5px 15px #ffffff;
+  box-shadow: -5px -5px 15px #ffffff; */
+}
+
+.logo-box img {
+  width: 70px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+/* header nav ul li {
+  padding: 15px 20px;
+  margin: 0 35px;
+  border: 2px solid red;
+} */
+
+header nav ul li a {
+  padding: 15px 20px;
+  margin: 0 35px;
+  font-size: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+header nav ul li:hover a {
+  background-color: #ffffff;
+  color: #000000;
+  /* text-decoration: underline; */
+}
+
+main {
+  min-width: 100%;
+  margin: 5px 20px;
+  border: 1px solid red;
+}
+
+main marquee {
+  font-size: 40px;
+  font-family: monospace;
+  letter-spacing: 8px;
+  text-decoration: underline;
+}

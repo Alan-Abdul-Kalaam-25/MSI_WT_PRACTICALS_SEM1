@@ -1,0 +1,5 @@
+Create an unorderd list nested inside an orderd list and apply the following:-
+    Insert an image on the Main item on top right corner of web page.
+    Display heading as Marquee.
+    Use different font styles and color for different ordered list items.
+    Insert horizontal ruler line after each ordered item.
